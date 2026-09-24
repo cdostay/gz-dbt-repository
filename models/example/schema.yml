@@ -19,3 +19,11 @@ models:
             tests:
                 - unique
                 - not_null
+
+sources:
+    - name: gz_raw_data
+      schema: course16
+      tables:
+          - name: raw_gz_sales
+          - name: raw_gz_product
+          - name: raw_gz_ship
