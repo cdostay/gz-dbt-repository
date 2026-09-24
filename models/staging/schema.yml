@@ -5,3 +5,5 @@ sources:
     schema: course16
     tables:
       - name: gwz_sales
+      - name: gwz_product
+      - name: gwz_ships
