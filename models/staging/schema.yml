@@ -1,0 +1,55 @@
+version: 2
+
+sources:
+  - name: course16
+    description: "Greenweez ham verilerini içeren veri kümesi."
+    schema: course16
+
+    tables:
+      - name: gwz_sales
+        description: "Satış işlemlerine ait ham verileri içerir."
+        columns:
+          - name: date_date
+            description: "Satış işleminin gerçekleştiği tarih."
+
+          - name: orders_id
+            description: "Siparişin benzersiz kimliği."
+
+          - name: products_id
+            description: "Satılan ürünün kimliği."
+
+          - name: turnover
+            description: "Satıştan elde edilen ciro."
+
+          - name: qty
+            description: "Siparişte satılan ürün miktarı."
+
+      - name: gwz_product
+        description: "Ürün ve satın alma fiyatı bilgilerini içerir."
+        columns:
+          - name: products_id
+            description: "Ürünün benzersiz kimliği."
+            tests:
+              - unique
+              - not_null
+
+          - name: purchase_price
+            description: "Ürünün satın alma fiyatı."
+
+      - name: gwz_ships
+        description: "Siparişlerin sevkiyat ve lojistik maliyet bilgilerini içerir."
+        columns:
+          - name: orders_id
+            description: "Siparişin benzersiz kimliği."
+            tests:
+              - unique
+              - not_null
+
+          - name: shipping_fee
+            description: "Sipariş için müşteriye yansıtılan gönderim ücreti."
+
+          - name: log_cost
+            description: "Siparişin lojistik maliyeti."
+
+          - name: ship_cost
+            description: "Siparişin sevkiyat maliyeti."
