@@ -53,3 +53,100 @@ sources:
 
           - name: ship_cost
             description: "Siparişin sevkiyat maliyeti."
+
+      - name: gz_adwords
+        description: "Google AdWords reklam verilerini içerir."
+        columns:
+          - name: date_date
+            description: "Reklam verisinin tarihini belirtir."
+
+          - name: paid_source
+            description: "Ücretli reklam kaynağını belirtir."
+
+          - name: campaign_key
+            description: "Kampanyanın anahtarını belirtir."
+
+          - name: campaign_name
+            description: "Kampanyanın adını belirtir."
+
+          - name: cost
+            description: "Reklam harcamasını belirtir."
+
+          - name: impression
+            description: "Reklamın gösterim sayısını belirtir."
+
+          - name: click
+            description: "Reklama yapılan tıklama sayısını belirtir."
+
+      - name: gz_bing
+        description: "Bing reklam verilerini içerir."
+        columns:
+          - name: date_date
+            description: "Reklam verisinin tarihini belirtir."
+
+          - name: paid_source
+            description: "Ücretli reklam kaynağını belirtir."
+
+          - name: campaign_key
+            description: "Kampanyanın anahtarını belirtir."
+
+          - name: campaign_name
+            description: "Kampanyanın adını belirtir."
+
+          - name: cost
+            description: "Reklam harcamasını belirtir."
+
+          - name: impression
+            description: "Reklamın gösterim sayısını belirtir."
+
+          - name: click
+            description: "Reklama yapılan tıklama sayısını belirtir."
+
+      - name: gz_criteo
+        description: "Criteo reklam verilerini içerir."
+        columns:
+          - name: date_date
+            description: "Reklam verisinin tarihini belirtir."
+
+          - name: paid_source
+            description: "Ücretli reklam kaynağını belirtir."
+
+          - name: campaign_key
+            description: "Kampanyanın anahtarını belirtir."
+
+          - name: campaign_name
+            description: "Kampanyanın adını belirtir."
+
+          - name: cost
+            description: "Reklam harcamasını belirtir."
+
+          - name: impression
+            description: "Reklamın gösterim sayısını belirtir."
+
+          - name: click
+            description: "Reklama yapılan tıklama sayısını belirtir."
+
+      - name: gz_facebook
+        description: "Facebook reklam verilerini içerir."
+        columns:
+          - name: date_date
+            description: "Reklam verisinin tarihini belirtir."
+
+          - name: paid_source
+            description: "Ücretli reklam kaynağını belirtir."
+
+          - name: campaign_key
+            description: "Kampanyanın anahtarını belirtir."
+
+          - name: campaign_name
+            description: "Kampanyanın adını belirtir."
+
+          - name: cost
+            description: "Reklam harcamasını belirtir."
+
+          - name: impression
+            description: "Reklamın gösterim sayısını belirtir."
+
+          - name: click
+            description: "Reklama yapılan tıklama sayısını belirtir."
+            
