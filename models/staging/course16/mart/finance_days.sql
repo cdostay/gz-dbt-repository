@@ -1,3 +1,6 @@
+{{ config(materialized='table') }}
+
+
 WITH orders_margin AS (
 
     SELECT *
