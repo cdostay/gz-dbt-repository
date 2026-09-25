@@ -1,7 +1,7 @@
 WITH sales_margin AS (
 
     SELECT *
-    FROM {{ ref('sales_margin') }}
+    FROM {{ ref('int_sales_margin') }}
 
 )
 
