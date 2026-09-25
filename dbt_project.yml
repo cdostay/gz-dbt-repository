@@ -40,4 +40,6 @@ models:
     staging:
       course16:
         mart:
-          +materialized: table
+          finance:
+            +materialized: table
+            +schema: finance
